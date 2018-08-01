@@ -7,9 +7,9 @@ module NekosLife
     @image_endpoints = []
 
     # @!macro [attach] add_image_endpoint
-    #   @method $2
-    #     Gets an image of `$2`
-    #     @return [String] the image URL with the `$2` type.
+    #   @method $1
+    #     Gets an image of `$1`
+    #     @return [String] the image URL with the `$1` type.
     # @!visibility private
     def self.add_image_endpoint(endpoint)
       @image_endpoints.push endpoint
